@@ -1,0 +1,14 @@
+---
+host_groups:
+  group1:
+    - host1.example.com
+    - host2.example.com
+  group2:
+    - host2.example.com
+    - host3.example.com
+users:
+  jeremy:
+    - group1
+    - group2
+  marie:
+    - group2
